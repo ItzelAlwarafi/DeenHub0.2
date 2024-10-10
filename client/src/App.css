@@ -1,0 +1,300 @@
+
+#root {
+  width: 529px;
+  height: 1256px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #6750A4;
+ 
+  
+}
+
+
+.landingPageContainer{
+margin: 5%;
+width: 90%;
+display: flex;
+flex-direction: column;
+ 
+
+
+ 
+}
+.top-menu{
+  width: 100%;
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+} 
+.user-location-data {
+  margin-bottom: 10%;
+  font-size: medium;
+  margin-top: 10%;
+
+  
+}
+
+
+
+.menu-icon{
+  margin: 3%;
+  font-size: x-large;
+  color:#65558F;
+}
+.header-regular-text ,.header-Bold-text{
+  margin: -10px;
+  font-size: large;
+  font-weight:400;
+}
+.header-Bold-text{
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+
+
+.daily-prayer-container{
+  margin-top: 10%;
+  display: flex;
+  flex-direction:row  ;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10%;
+
+
+}
+.prayer {
+  width: 25%;
+  padding: 2%;
+}
+
+.icon-prayer{
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: -5px;
+  margin: 0;
+
+}
+
+.prayer-name-daily{
+  font-size: large;
+  font-weight: 500;
+  margin: 0;
+  
+
+}
+.time-daily{
+  font-size: large;
+  font-weight: 600;
+  margin: 0;
+  
+
+}
+
+.MenuBoxes-PageContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Space out items evenly */
+  align-items: center; /* Align items vertically centered */
+  flex-wrap: wrap; /* Allow wrapping if there are too many items */
+  margin: 0 auto; /* Center the container if needed */
+ 
+ 
+  
+}
+.box-menu-container{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10%;
+  width: 8rem;
+ height: 8rem;
+
+}
+.menu-box-icons{
+  font-size: 2.5rem;
+ margin: 0;
+ color: #65558F;
+ 
+}
+.menu-box-text{
+  font-size: 1rem;
+ margin: 0;
+font-weight: 500;
+color: #65558F;
+ 
+}
+.box-link{
+  text-decoration:none ;
+  color:#65558F;
+}
+
+.DuaPageHeaderContainer {
+  background-color: #6750A4;
+  z-index: 0;
+  position: relative;
+ 
+}
+
+
+
+/* Side Menu Container */
+.Side-menu-container {
+  position: fixed;            /* Fix the menu to the viewport */
+  top: 0;                    /* Align to the top */
+  left: 0;                   /* Align to the left */
+  height: 100%;              /* Full height */
+  width: 30%;              /* Width of the side menu */
+  background-color:#6650a496;    /* Background color */
+  padding: 20px;            /* Padding inside the menu */
+  transform: translateX(-100%); /* Start off-screen to the left */
+  transition: transform 0.3s ease; /* Smooth transition */
+  z-index: 1000;    /* Ensure it sits above other content */
+  
+}
+
+/* Show Menu When Open */
+.Side-menu-container.open {
+  transform: translateX(0);  /* Move into view */
+}
+
+
+
+.side-box-link {
+  display: flex;            /* Flexbox for alignment */
+  align-items: center;      /* Center vertically */
+  text-decoration: none;    /* Remove underline */
+  color: white;             /* Text color */
+}
+
+.sidemenu-text{
+  font-size: large;
+  font-weight: 400;
+  margin: 5%;
+  letter-spacing: 2px;
+  
+  
+}
+
+/* Close Button Styles */
+.close-button {
+  background: none;        /* No background */
+  border: none;            /* No border */
+  color: white;            /* Text color */
+  font-size: 1.5em;        /* Larger text */
+  cursor: pointer;         /* Pointer cursor */
+  margin-bottom: 50%;     /* Space below the button */
+  margin-left: 90%;
+}
+
+.secondary-header {
+  position: relative;
+  z-index: 1;
+  color: white; 
+  width: 100%;
+  
+
+}
+/*  Date selector styles   */
+.PrayerTimesPageContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.date-selector {
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  padding: 0 20px;
+  color: #6750A4;
+  transition: transform 0.2s ease;
+}
+
+.arrow-button:hover {
+  transform: scale(1.2);
+}
+
+.date-display {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6750A4;
+  letter-spacing: 2px;
+}
+.prayerTimes-data-container {
+ margin-top: 10%;
+ width: 100%;
+ border-radius: 8px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.loading-Message{
+  font-size: x-large;
+  font-weight: 600;
+  align-self: center;
+}
+
+.prayer-container{
+  margin: 2%;
+  width: 90%;
+  display: flex;
+  justify-content:space-between;
+ align-items: center;
+
+
+}
+.prayer-name{
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  
+}
+
+.prayer-time {
+  font-weight: 500;
+ font-size: 1.2rem;
+ letter-spacing: 1px;
+}
+.remindMe-btn-prayer{
+  border:#6750A4;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #EAE4FC;
+  height: 1.5rem;
+  width: 8rem;
+  color: #6750A4;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
