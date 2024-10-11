@@ -52,7 +52,7 @@ export default function PrayerTimesComp() {
     return (
         <div className="PrayerTimesPageContainer">
             <div className="secondary-header">
-                <HeaderComp /> {/* Render the header component */}
+                <HeaderComp /> 
             </div>
             <div className="date-selector">
                 {/* Button to go to the previous day */}

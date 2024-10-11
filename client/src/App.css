@@ -341,3 +341,52 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   font-size: 2rem;
   margin-bottom: -10px;
 }
+
+.read-Koran-Container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.surah-selector{
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 2%;
+ 
+}
+
+.Surah-display{
+  font-size: large;
+  letter-spacing: 1px;
+}
+
+.ayahs-container {
+  margin-top: 20px;
+}
+
+.ayah-container {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ayah-arabic {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.ayah-arabic p {
+  display: inline; /* Keep Ayah number and text in the same line */
+}
+
+.ayah-transliteration, .ayah-english {
+  margin-top: 5px;
+  font-size: 1.2em;
+}
