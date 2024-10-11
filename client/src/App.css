@@ -59,7 +59,11 @@ flex-direction: column;
   font-weight: 500;
 }
 
-
+.logo{
+  display: flex;
+  width: 2.5rem;
+  align-self: center;
+}
 
 .daily-prayer-container{
   margin-top: 10%;

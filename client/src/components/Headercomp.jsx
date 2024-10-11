@@ -39,6 +39,7 @@ export default function Headercomp() {
                 <Link to="#" className="menu-icon" id="sandwich-menu-icon" onClick={toggleMenu}>
                     <ImMenu />
                 </Link>
+                <img className="logo" src="DeenHubsvg.svg"></img>
                 <Link to="/" className="menu-icon" id="home-menu-icon">
                     <IoMdHome />
                 </Link>
